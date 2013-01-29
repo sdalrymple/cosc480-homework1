@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-for codefile in skeletons/*.rb
+for codefile in code/*.rb
 do
     specfile=`basename ${codefile} .rb`_spec.rb
     echo $specfile
