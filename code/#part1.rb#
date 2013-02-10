@@ -1,0 +1,13 @@
+def palindrome?(str)
+  # test if a string is a palindrome
+  str.downcase.gsub(/\W/,"") == str.reverse.downcase.gsub(/\W/,"")
+end
+
+def count_words(str)
+  each /\b/ 
+end
+
+
+puts (palindrome?("A man, a plan, a canal -- Panama"))
+puts (palindrome?("Madam, I'm Adam!"))
+puts (palindrome?("Abracadabro"))
